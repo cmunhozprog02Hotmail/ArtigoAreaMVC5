@@ -17,6 +17,8 @@ namespace ArtigoAreaMVC5
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                //Caso use areas espefique o namespace
+                , namespaces: new [] {"ArtigoAreaMVC5.Controllers"}
             );
         }
     }
