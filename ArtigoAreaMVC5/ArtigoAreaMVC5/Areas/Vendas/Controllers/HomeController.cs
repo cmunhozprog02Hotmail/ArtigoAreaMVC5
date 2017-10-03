@@ -4,12 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ArtigoAreaMVC5.Areas.Admin.Controllers
+namespace ArtigoAreaMVC5.Areas.Vendas.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
-        // GET: Admin/Home
+        // GET: Vendas/Home
         public ActionResult Index()
         {
             return View();
